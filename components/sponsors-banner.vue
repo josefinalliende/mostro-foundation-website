@@ -20,11 +20,6 @@
             Open Sats
           </p>
         </div>
-        <img
-          class="fill-tertiary-100 col-span-1 h-8 lg:h-10 object-contain lg:col-span-1"
-          src="~/assets/icons/b4os.svg"
-          alt="B4OS"
-        >
         <div class="flex md:flex-col items-center">
           <img
             class="animate-bounce col-span-1 h-8 object-contain lg:col-span-1"

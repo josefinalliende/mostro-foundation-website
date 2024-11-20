@@ -8,7 +8,7 @@
       <p class="mt-8 text-pretty text-lg font-medium text-tertiary-700 sm:text-xl/8">
         Our foundation is a non-profit organization supporting the builders of
         <span>
-          <a href="#" class="text-primary-600 underline">
+          <a href="https://mostro.network/" target="_blank" class="text-primary-600 underline">
             Mostro
           </a>
         </span>
