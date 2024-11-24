@@ -21,7 +21,7 @@
           href="https://github.com/MostroP2P"
         >
           <span> Contribute </span>
-          <img class="h-5" src="~/assets/icons/github.svg" />
+          <img class="h-5" src="~/assets/icons/github.svg" >
         </a>
         <a
           class="font-semibold bg-primary-500 hover:bg-primary-600 shadow-lg  text-white px-10 py-2 rounded-full transition-all duration-400 ease-in-out"
@@ -34,7 +34,7 @@
     </div>
     </div>
     <div class="hidden lg:flex w-full items-center justify-center">
-      <img class="h-80 self-center" src="~/assets/images/developer.png" />
+      <img class="h-80 self-center" src="~/assets/images/developer.png" >
     </div>
   </div>
 </div>
