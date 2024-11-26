@@ -15,7 +15,7 @@
         />
       </div>
       <p class="mt-6 text-lg/8 text-gray-600">
-        Mostro facilitates peer-to-peer Bitcoin transactions through the Lightning Network on Nostr, offering a private, decentralized, and censorship-resistant platform.
+        Mostro facilitates peer-to-peer Bitcoin exchanges through the Lightning Network on Nostr, offering a private, decentralized, and censorship-resistant platform.
       </p>
     </div>
     <div class="mx-auto mt-16 max-w-2xl lg:max-w-4xl">
