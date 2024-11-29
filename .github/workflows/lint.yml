@@ -1,7 +1,7 @@
-name: CI
+name: Run linters
 on: push
 jobs:
-  build:
+  lint:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout code
