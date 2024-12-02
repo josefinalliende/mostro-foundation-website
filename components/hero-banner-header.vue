@@ -22,7 +22,7 @@ import { smoothScroll } from '../utils/scroll'
         <div class="flex gap-x-4 md:gap-x-12">
           <button
             class="text-sm/6 font-semibold text-white"
-            @click="smoothScroll('#donate')"
+            @click.prevent="smoothScroll('#donate')"
           >
             Donate
           </button>
@@ -32,12 +32,12 @@ import { smoothScroll } from '../utils/scroll'
           >
             About mostro
           </button>
-          <a
+          <button
 class="text-sm/6 font-semibold text-white"
             @click="smoothScroll('#contact')"
           >
             Follow us
-          </a>
+        </button>
         </div>
       </nav>
     </header>
