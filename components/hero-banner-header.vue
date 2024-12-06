@@ -20,21 +20,24 @@ import { smoothScroll } from '../utils/scroll'
           </a>
         </div>
         <div class="flex gap-x-4 md:gap-x-12">
-          <button
+          <a
             class="text-sm/6 font-semibold text-white"
-            @click="smoothScroll('#donate')"
+            href="#donate"
+            @click.prevent="smoothScroll('#donate')"
           >
             Donate
-          </button>
-          <button
+          </a>
+          <a
             class="text-sm/6 font-semibold text-white"
-            @click="smoothScroll('#about-us')"
+            href="#about-us"
+            @click.prevent="smoothScroll('#about-us')"
           >
             About mostro
-          </button>
+          </a>
           <a
-class="text-sm/6 font-semibold text-white"
-            @click="smoothScroll('#contact')"
+            href="#contact"
+            class="text-sm/6 font-semibold text-white"
+            @click.prevent="smoothScroll('#contact')"
           >
             Follow us
           </a>
