@@ -6,6 +6,8 @@ import SponsorsBanner from './components/sponsors-banner.vue';
 import DonateBanner from './components/donate-banner.vue';
 import ContactBanner from './components/contact-banner.vue';
 
+let my_const = 2;
+
 </script>
 <template>
   <div>
