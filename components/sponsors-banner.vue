@@ -20,11 +20,11 @@
             Open Sats
           </p>
         </div>
-        <div class="flex md:flex-col items-center">
+        <div class="flex flex-col items-center col-span-2">
           <img
-            class="animate-bounce col-span-1 h-8 object-contain lg:col-span-1"
+            class="motion-safe:animate-bounce col-span-1 h-8 object-contain"
             src="~/assets/icons/arrow-circle-down.svg"
-            alt="Open sats"
+            alt="Downward pointing arrow"
           >
           <p class="text-sm text-white font-medium">
             Your logo could be here!

@@ -12,7 +12,7 @@
         <img
           class="size-14"
           src="~/assets/icons/mostro-green.svg"
-        />
+        >
       </div>
       <p class="mt-6 text-lg/8 text-gray-600">
         Mostro facilitates peer-to-peer Bitcoin exchanges through the Lightning Network on Nostr, offering a private, decentralized, and censorship-resistant platform.
@@ -26,7 +26,7 @@
               <img
                 class="size-6"
                 src="~/assets/icons/detective.svg"
-              />
+              >
             </div>
             No KYC
           </dt>
@@ -53,7 +53,7 @@
               <img
                 class="size-6"
                 src="~/assets/icons/handshake.svg"
-              />
+              >
             </div>
             P2P
           </dt>
@@ -67,7 +67,7 @@
               <img
                 class="size-6"
                 src="~/assets/icons/giving-hand.svg"
-              />
+              >
             </div>
             Open source
           </dt>

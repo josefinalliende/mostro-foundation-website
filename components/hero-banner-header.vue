@@ -16,24 +16,28 @@ import { smoothScroll } from '../utils/scroll'
               class="w-8 lg:h-12"
               src="~/assets/icons/mostro-white.svg"
               alt="Mostro"
-            />
+            >
           </a>
         </div>
         <div class="flex gap-x-4 md:gap-x-12">
-          <button
-            @click="smoothScroll('#donate')"
+          <a
             class="text-sm/6 font-semibold text-white"
+            href="#donate"
+            @click.prevent="smoothScroll('#donate')"
           >
             Donate
-          </button>
-          <button
+          </a>
+          <a
             class="text-sm/6 font-semibold text-white"
-            @click="smoothScroll('#about-us')"
+            href="#about-us"
+            @click.prevent="smoothScroll('#about-us')"
           >
             About mostro
-          </button>
-          <a @click="smoothScroll('#contact')"
+          </a>
+          <a
+            href="#contact"
             class="text-sm/6 font-semibold text-white"
+            @click.prevent="smoothScroll('#contact')"
           >
             Follow us
           </a>
