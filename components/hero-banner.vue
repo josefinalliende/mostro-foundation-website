@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import HeroBannerHeader from './hero-banner-header.vue';
-import { smoothScroll } from '../utils/scroll'
 
 </script>
 <template>
@@ -16,14 +14,16 @@ import { smoothScroll } from '../utils/scroll'
             We fund mostro proyects and decentralized bitcoin peer-to-peer tools
           </p>
           <div class="mt-10 flex items-center justify-center gap-6 flex-col  md:flex-row">
-            <a
-              class="font-semibold bg-secondary-400 hover:bg-secondary-500 shadow-lg  text-tertiary-700 px-10 py-2 rounded-full transition-all duration-400 ease-in-out"
+            <base-button
               href="#contribute"
-              @click.prevent="smoothScroll('#contribute')"
+              theme="secondary"
+              label="Learn more"
+              scroll
             >
-              Learn more
-              <span aria-hidden="true">&darr;</span>
-          </a>
+              <template #icon>
+                <span aria-hidden="true">&darr;</span>
+              </template>
+            </base-button>
           </div>
         </div>
       </div>
