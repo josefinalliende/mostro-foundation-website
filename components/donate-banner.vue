@@ -21,13 +21,15 @@
           This project's development has been made possible thanks to the incredible support from the community.
         </p>
         <div class="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-          <a
-            class="font-semibold bg-secondary-400 hover:bg-secondary-500 shadow-lg  text-tertiary-700 px-10 py-2 rounded-full transition-all duration-400 ease-in-out"
+          <base-button
             href="https://geyser.fund/project/mostro"
+            theme="secondary"
+            label="Donate today"
           >
-            Donate today
-            <span aria-hidden="true">&rarr;</span>
-          </a>
+            <template #icon>
+              <span aria-hidden="true">&rarr;</span>
+            </template>
+          </base-button>
         </div>
       </div>
     </div>
