@@ -16,20 +16,25 @@
       </p>
       <div class="mx-auto mt-10 max-w-2xl lg:mx-0 lg:max-w-none">
       <div class="text-base/7 flex-col flex md:flex-row items-center justify-center md:justify-start gap-4">
-        <a
-          class="bg-white flex text-center px-10 items-center gap-2 font-semibold border border-primary-700 hover:bg-primary-700/10 shadow-lg text-primary-700 py-2 rounded-full transition-all duration-400 ease-in-out"
+        <base-button
           href="https://github.com/MostroP2P"
+          theme="tertiary"
+          label="Contribute"
         >
-          <span> Contribute </span>
-          <img class="h-5" src="~/assets/icons/github.svg" >
-        </a>
-        <a
-          class="font-semibold bg-primary-500 hover:bg-primary-600 shadow-lg  text-white px-10 py-2 rounded-full transition-all duration-400 ease-in-out"
+          <template #icon>
+            <img class="h-5" src="~/assets/icons/github.svg" >
+          </template>
+        </base-button>
+
+        <base-button
           href="https://geyser.fund/project/mostro"
+          theme="primary"
+          label="Support us"
         >
-          Support us
-          <span aria-hidden="true">&rarr;</span>
-        </a>
+          <template #icon>
+            <span aria-hidden="true">&rarr;</span>
+          </template>
+        </base-button>
       </div>
     </div>
     </div>
