@@ -3,7 +3,7 @@
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:text-center">
       <p class="text-base/7 font-semibold text-primary-500">
-        About mostro
+        About Mostro
       </p>
       <div class="flex gap-4 items-center justify-center">
         <h2 class="mt-2 text-pretty text-4xl font-semibold tracking-tight text-tertiary-900 sm:text-5xl lg:text-balance">

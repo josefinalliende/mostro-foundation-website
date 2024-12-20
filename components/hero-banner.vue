@@ -11,7 +11,7 @@
             Mostro Foundation
           </h1>
           <p class="mt-8 font-medium text-lg text-white sm:text-xl/8">
-            We fund mostro proyects and decentralized bitcoin peer-to-peer tools
+            We support Mostro developers in building peer-to-peer Bitcoin tools
           </p>
           <div class="mt-10 flex items-center justify-center gap-6 flex-col  md:flex-row">
             <base-button

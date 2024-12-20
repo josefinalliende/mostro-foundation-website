@@ -31,7 +31,7 @@ import { smoothScroll } from '../utils/scroll'
             href="#about-us"
             @click.prevent="smoothScroll('#about-us')"
           >
-            About mostro
+            About Mostro
           </a>
           <a
             href="#contact"

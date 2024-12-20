@@ -15,7 +15,7 @@
       </svg>
       <div class="mx-auto max-w-md text-center lg:mx-0 lg:flex-auto lg:pt-16 lg:text-left">
         <h2 class="text-balance text-3xl font-semibold tracking-tight text-white sm:text-4xl">
-          Help us keep funding mostro projects
+          Help us keep funding Mostro projects
         </h2>
         <p class="mt-6 text-pretty font-light text-lg/8 text-white">
           This project's development has been made possible thanks to the incredible support from the community.
