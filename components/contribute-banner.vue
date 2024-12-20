@@ -22,7 +22,11 @@
           label="Contribute"
         >
           <template #icon>
-            <img class="h-5" src="~/assets/icons/github.svg" >
+            <img
+              class="h-5"
+              src="~/assets/icons/github.svg"
+              alt="GitHub logo">
+            >
           </template>
         </base-button>
 
@@ -32,7 +36,9 @@
           label="Support us"
         >
           <template #icon>
-            <span aria-hidden="true">&rarr;</span>
+            <span aria-hidden="true" aria-label="Right arrow">
+              &rarr;
+            </span>
           </template>
         </base-button>
       </div>
