@@ -5,18 +5,39 @@
       Follow us!
     </h2>
     <div class="flex w-full justify-center gap-x-6 lg:gap-x-8">
-      <a target="_blank" href="https://x.com/MostroP2P" class="h-12 lg:h-16 rounded-full bg-secondary-400 hover:bg-secondary-300 shadow-lg flex aspect-square items-center justify-center">
+      <a
+        href="https://x.com/MostroP2P"
+        target="_blank"
+        rel="noopener noreferrer"
+         class="contact-link"
+
+      >
         <img class="h-8 lg:h-10" src="~/assets/icons/x.svg" alt="X">
       </a>
 
-      <a target="_blank" href="https://primal.net/p/npub1m0str0d7z2ww8rdh20t2n9lx520xjwhaq24p68umqp06wwrwtsnqen40un" class="h-12 lg:h-16 rounded-full bg-secondary-400 hover:bg-secondary-300 shadow-lg flex aspect-square items-center justify-center">
+      <a
+        href="https://primal.net/p/npub1m0str0d7z2ww8rdh20t2n9lx520xjwhaq24p68umqp06wwrwtsnqen40un"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="contact-link"
+      >
         <img class="h-8 lg:h-10" src="~/assets/icons/nostr.svg" alt="Nostr">
       </a>
 
-      <a target="_blank" href="https://t.me/mostrop2p" class="h-12 lg:h-16 rounded-full bg-secondary-400 hover:bg-secondary-300 shadow-lg flex aspect-square items-center justify-center">
+      <a
+        href="https://t.me/mostrop2p"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="contact-link"
+      >
         <img class="h-8 lg:h-10" src="~/assets/icons/telegram.svg" alt="Telegram">
       </a>
     </div>
   </div>
 </div>
 </template>
+<style>
+ .contact-link {
+   @apply h-12 lg:h-16 rounded-full bg-secondary-400 hover:bg-secondary-300 shadow-lg flex aspect-square items-center justify-center;
+}
+</style>
