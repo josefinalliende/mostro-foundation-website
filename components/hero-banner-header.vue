@@ -22,8 +22,7 @@ import { smoothScroll } from '../utils/scroll'
         <div class="flex gap-x-4 md:gap-x-12">
           <a
             class="text-sm/6 font-semibold text-white"
-            href="#donate"
-            @click.prevent="smoothScroll('#donate')"
+            href="https://geyser.fund/project/mostro"
           >
             Donate
           </a>
